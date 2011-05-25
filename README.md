@@ -10,7 +10,7 @@ blame.py
 blame.py is a Git blame plugin. It takes selected lines as arguments 
 and outputs the data into the console.
 
-![Blame screenshot](/ehamiter/Sublime-Text-2-Plugins/blame.png "Blame in action")
+![Blame screenshot](http://imgur.com/p7dcD "Blame in action")
 
 Installation
 ------------

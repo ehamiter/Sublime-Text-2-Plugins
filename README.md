@@ -1,7 +1,7 @@
 Sublime Text 2 Plugins
 ===============================================
 
-This is just a handy place to store some plugins I use for ST2.
+This is just a handy place to store some plugins I wrote for ST2.
 
 
 blame.py
@@ -22,9 +22,12 @@ Preferences > Browse Packages... > User)*
 Usage
 -----
 
-Select text or click desired line(s), then context (right) click. 
-Choose "Blame..."
+Select text or click desired line(s), then activate. 
 
 I've added this to my User Key Bindings, which works well (Command-Shift-B on a Mac):
 
     { "keys": ["super+shift+b"], "command": "blame" }
+
+...and this in User/Context.sublime-menu, which allows context menu access:
+
+    { "command": "blame", "caption": "Blame…" }

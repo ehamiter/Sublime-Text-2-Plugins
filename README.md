@@ -35,7 +35,7 @@ I've added this to my User Key Bindings (Command-Shift-B on a Mac):
 pep8check.py
 ============
 
-pep8check.py is a [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/) plugin. It uses another Python program called [pep8.py](http://pypi.python.org/pypi/pep8) that you can install in a few ways:
+pep8check.py is a [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/) plugin. It uses another Python program called [pep8.py](http://pypi.python.org/pypi/pep8). It looks like this:
 
 ![blame screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/pep8check.png)
 

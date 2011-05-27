@@ -3,13 +3,10 @@ Sublime Text 2 Plugins
 
 This is just a handy place to store some plugins I wrote for ST2.
 
-[blame.py][]
-[pep8check.py][]
-
 
 ---
 
-[blame.py]
+blame.py
 ========
 
 blame.py is a Git blame plugin. It takes selected lines as arguments and outputs the data into the console.
@@ -39,10 +36,12 @@ I've added this to my User Key Bindings (Command-Shift-B on a Mac):
 
 ---
 
-[pep8check.py]
+pep8check.py
 ============
 
 pep8check.py is a [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/) plugin. It uses another Python program called [pep8.py](http://pypi.python.org/pypi/pep8) that you can install in a few ways:
+
+![blame screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/pep8check.png)
 
 
 Installation

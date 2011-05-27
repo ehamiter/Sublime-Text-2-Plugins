@@ -4,8 +4,6 @@ Sublime Text 2 Plugins
 This is just a handy place to store some plugins I wrote for ST2.
 
 
----
-
 blame.py
 ========
 
@@ -34,8 +32,6 @@ I've added this to my User Key Bindings (Command-Shift-B on a Mac):
     { "command": "blame", "caption": "Blame…" }
 
 
----
-
 pep8check.py
 ============
 
@@ -48,6 +44,18 @@ Installation
 ------------
 
 Copy **[pep8check.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/pep8check.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+
+Take a look through the code, and add or remove options that fit your needs. In the stock example, I have the following set up:
+
+* --repeat          show all occurrences of the same error
+* --verbose         print status messages, or debug with -vv
+* --repeat          show all occurrences of the same error
+* --ignore=errors   skip errors and warnings (e.g. E4,W)
+* --show-source     show source code for each error
+* --statistics      count errors and warnings
+*  --count          print total number of errors and warnings to standard error and set exit code to 1 if total is not null
+
+Play around with the options until you get what you want.
 
 **This plugin is dependent on pep8, which you must install yourself.** You can install, upgrade, uninstall pep8.py with these commands:
 

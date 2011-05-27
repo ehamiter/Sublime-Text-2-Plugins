@@ -47,13 +47,15 @@ Copy **[pep8check.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/mas
 
 Take a look through the code, and add or remove options that fit your needs. In the stock example, I have the following set up:
 
-* --repeat          show all occurrences of the same error
-* --verbose         print status messages, or debug with -vv
-* --repeat          show all occurrences of the same error
-* --ignore=errors   skip errors and warnings (e.g. E4,W)
-* --show-source     show source code for each error
-* --statistics      count errors and warnings
-*  --count          print total number of errors and warnings to standard error and set exit code to 1 if total is not null
+    --repeat          show all occurrences of the same error
+    --verbose         print status messages, or debug with -vv
+    --repeat          show all occurrences of the same error
+    --ignore=errors   skip errors and warnings (e.g. E4,W)
+    --show-source     show source code for each error
+    --statistics      count errors and warnings
+    --count           print total number of errors and warnings to 
+                        standard error and set exit code to 1 if 
+                        total is not null
 
 Play around with the options until you get what you want.
 

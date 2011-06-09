@@ -27,7 +27,7 @@ I've added this to my User Key Bindings (Command-Shift-B on a Mac):
 
     { "keys": ["super+shift+b"], "command": "blame" }
 
-...and this in Default/Context.sublime-menu, which allows context menu access:
+...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
 
     { "command": "blame", "caption": "Blame…" }
 
@@ -37,7 +37,7 @@ googleIt.py
 
 googleIt.py is a Google looker-upper. It takes the scope of the file and appends it to a Google search of either the word under the cursor or the selected text.
 
-![blame screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/googleIt.png)
+![googleIt screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/googleIt.png)
 
 
 Installation
@@ -51,9 +51,13 @@ Usage
 
 Select text or click desired word, then activate. 
 
-I've added this to my User Key Bindings (Command-Shift-B on a Mac):
+I've added this to my User Key Bindings (Control-Alt-/ on a Mac):
 
     { "keys": ["ctrl+alt+forward_slash"], "command": "googleIt" }
+
+...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
+
+    { "command": "googleIt", "caption": "googleIt…" }
 
 
 pep8check.py
@@ -105,4 +109,4 @@ I've added this to my User Key Bindings (Command-Shift-8 on a Mac):
 
 ...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
 
-    { "command": "pep8_check", "caption": "PEP8" }
+    { "command": "pep8_check", "caption": "PEP8 Check…" }

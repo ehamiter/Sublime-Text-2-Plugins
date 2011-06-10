@@ -53,7 +53,7 @@ Select text or click desired word, then activate.
 
 I've added this to my User Key Bindings (Control-Alt-/ on a Mac):
 
-    { "keys": ["ctrl+alt+forward_slash"], "command": "googleIt" }
+    { "keys": ["ctrl+alt+forward_slash"], "command": "google_it" }
 
 ...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
 

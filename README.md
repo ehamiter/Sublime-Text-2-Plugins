@@ -25,7 +25,7 @@ Select text or click desired line(s), then activate.
 
 I've added this to my User Key Bindings (Command-Shift-B on a Mac):
 
-    { "keys": ["super+shift+b"], "command": "blame" }
+    { "keys": ["super+alt+b"], "command": "blame" }
 
 ...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
 

@@ -23,7 +23,7 @@ Usage
 
 Select text or click desired line(s), then activate. 
 
-I've added this to my User Key Bindings (Command-Shift-B on a Mac):
+I've added this to my User Key Bindings (command-alt-b on a Mac):
 
     { "keys": ["super+alt+b"], "command": "blame" }
 

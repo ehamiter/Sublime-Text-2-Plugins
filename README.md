@@ -110,3 +110,25 @@ I've added this to my User Key Bindings (Command-Shift-8 on a Mac):
 ...and this in User/Default\_(your OS)\_Context.sublime-menu, which allows context menu access:
 
     { "command": "pep8_check", "caption": "PEP8 Check…" }
+
+
+settings_refresh.py
+===================
+
+settings_refresh.py is a ridiculously simple plugin. It saves your settings, which in effect, refreshes your changes, if any were made. I use this for tweaking my color scheme and then immediately seeing the changes.
+
+
+Installation
+------------
+
+Copy **[settings_refresh.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/settings_refresh.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+
+
+Usage
+-----
+
+After editing / adding / deleting a setting, or Theme, or Color Scheme, activate to refresh the changes. 
+
+I've added this to my User Key Bindings (command-alt-b on a Mac):
+
+    { "keys": ["super+ctrl+r"], "command": "settings_refresh" }

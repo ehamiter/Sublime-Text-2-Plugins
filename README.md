@@ -129,6 +129,6 @@ Usage
 
 After editing / adding / deleting a setting, or Theme, or Color Scheme, activate to refresh the changes. 
 
-I've added this to my User Key Bindings (command-alt-b on a Mac):
+I've added this to my User Key Bindings (&#2303;-&#2318;-r on a Mac):
 
     { "keys": ["super+ctrl+r"], "command": "settings_refresh" }

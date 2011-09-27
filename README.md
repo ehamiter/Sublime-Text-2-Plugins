@@ -23,7 +23,7 @@ Usage
 
 Select text or click desired line(s), then activate. 
 
-I've added this to my User Key Bindings (command-alt-b on a Mac):
+I've added this to my User Key Bindings (&#8984;-&#8997;-b on a Mac):
 
     { "keys": ["super+alt+b"], "command": "blame" }
 
@@ -51,7 +51,7 @@ Usage
 
 Select text or click desired word, then activate. 
 
-I've added this to my User Key Bindings (Control-Alt-/ on a Mac):
+I've added this to my User Key Bindings (&#8963;-&#8997;-/ on a Mac):
 
     { "keys": ["ctrl+alt+forward_slash"], "command": "google_it" }
 
@@ -103,7 +103,7 @@ There's also a package for Debian/Ubuntu, but it's not always the latest version
 Usage
 -----
 
-I've added this to my User Key Bindings (Command-Shift-8 on a Mac):
+I've added this to my User Key Bindings (&#8984;-&#8679;-8 on a Mac):
     
     { "keys": ["super+shift+8"], "command": "pep8_check" }
 
@@ -129,6 +129,6 @@ Usage
 
 After editing / adding / deleting a setting, or Theme, or Color Scheme, activate to refresh the changes. 
 
-I've added this to my User Key Bindings (&#2303;-&#2318;-r on a Mac):
+I've added this to my User Key Bindings (&#8963;-&#8984;-r on a Mac):
 
     { "keys": ["super+ctrl+r"], "command": "settings_refresh" }

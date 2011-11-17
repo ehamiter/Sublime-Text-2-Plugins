@@ -137,7 +137,7 @@ I've added this to my User Key Bindings (&#8963;-&#8984;-r on a Mac):
 generate_uuid.py
 ================
 
-generate_uuid.py will generate a UUID (uuid1, to be specific-- if you want to know more, or if you should edit this to use uuid4, [read more here](http://stackoverflow.com/questions/1785503/when-should-i-use-uuid-uuid1-vs-uuid-uuid4-in-python)) or a series of UUIDs if you have selected multiple points.
+generate_uuid.py will generate a UUID (uuid4, to be specific-- if you want to know more, or if you should edit this to use uuid1, [read more here](http://stackoverflow.com/questions/1785503/when-should-i-use-uuid-uuid1-vs-uuid-uuid4-in-python)) or a series of UUIDs if you have selected multiple points.
 
 
 Installation

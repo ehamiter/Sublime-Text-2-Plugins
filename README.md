@@ -132,3 +132,25 @@ After editing / adding / deleting a setting, or Theme, or Color Scheme, activate
 I've added this to my User Key Bindings (&#8963;-&#8984;-r on a Mac):
 
     { "keys": ["super+ctrl+r"], "command": "settings_refresh" }
+
+
+generate_uuid.py
+================
+
+generate_uuid.py will generate a UUID (uuid1, to be specific-- if you want to know more, or if you should edit this to use uuid4, [read more here](http://stackoverflow.com/questions/1785503/when-should-i-use-uuid-uuid1-vs-uuid-uuid4-in-python)) or a series of UUIDS if you have selected multiple points.
+
+
+Installation
+------------
+
+Copy **[generate_uuid.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/generate_uuid.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+
+
+Usage
+-----
+
+Activate to generate a UUID. 
+
+I've added this to my User Key Bindings (&#8984;-&#8679;-u on a Mac):
+
+    { "keys": ["super+shift+u"], "command": "generate_uuid" }

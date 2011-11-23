@@ -168,7 +168,7 @@ Installation
 ------------
 
 1. Download **[Validator S.A.C.](http://habilis.net/validator-sac/)** and copy to your **Applications** folder.
-2. Copy **[local_validate.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/masterlocal_validate.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+2. Copy **[local_validate.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/local_validate.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
 
 After installation, your browser may prompt you to select the default handler for `x-validator-sac`. Select **Validator S.A.C.**
 

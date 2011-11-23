@@ -159,7 +159,7 @@ I've added this to my User Key Bindings (&#8984;-&#8679;-u on a Mac):
 local_validate.py
 =================
 
-Using the Mac OS X application *Validator S.A.C.* (separate installation required, see below), local_validate.py will locally validate the current XHTML / HTML file.
+Using the Mac OS X application **Validator S.A.C.** (separate installation required, see below), local_validate.py will locally validate the current XHTML / HTML file. Handy if you have no internet access, as well as saving some traffic to W3C's often-overloaded servers.
 
 ![local_validate screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/local_validate.png)
 
@@ -167,10 +167,10 @@ Using the Mac OS X application *Validator S.A.C.* (separate installation require
 Installation
 ------------
 
-1. Download [Validator S.A.C.](http://habilis.net/validator-sac/) and copy to your Applications folder.
+1. Download **[Validator S.A.C.](http://habilis.net/validator-sac/)** and copy to your **Applications** folder.
 2. Copy **[local_validate.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/masterlocal_validate.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
 
-After installation, your browser may prompt you to select the default handler for `x-validator-sac`. Select *Validator S.A.C.*
+After installation, your browser may prompt you to select the default handler for `x-validator-sac`. Select **Validator S.A.C.**
 
 
 Usage

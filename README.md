@@ -154,3 +154,30 @@ Activate to generate a UUID.
 I've added this to my User Key Bindings (&#8984;-&#8679;-u on a Mac):
 
     { "keys": ["super+shift+u"], "command": "generate_uuid" }
+
+
+local_validate.py
+=================
+
+Using the Mac OS X application *Validator S.A.C.* (separate installation required, see below), local_validate.py will locally validate the current XHTML / HTML file.
+
+![local_validate screenshot](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/local_validate.png)
+
+
+Installation
+------------
+
+1. Download [Validator S.A.C.](http://habilis.net/validator-sac/) and copy to your Applications folder.
+2. Copy **[local_validate.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/masterlocal_validate.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+
+After installation, your browser may prompt you to select the default handler for `x-validator-sac`. Select *Validator S.A.C.*
+
+
+Usage
+-----
+
+Activate to locally validate the current XHTML / HTML file. 
+
+I've added this to my User Key Bindings (&#8963;-&#8997;-v on a Mac):
+
+    { "keys": ["ctrl+alt+v"], "command": "local_validate" }

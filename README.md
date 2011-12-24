@@ -181,3 +181,29 @@ Activate to locally validate the current XHTML / HTML file.
 I've added this to my User Key Bindings (&#8963;-&#8997;-v on a Mac):
 
     { "keys": ["ctrl+alt+v"], "command": "local_validate" }
+
+
+speak_to_me.py
+==============
+
+This will allow you to select text in a Sublime Text 2 file, and have it read back to you. Macs only.
+
+
+Installation
+------------
+
+Copy **[speak_to_me.py](https://github.com/ehamiter/Sublime-Text-2-Plugins/raw/master/speak_to_me.py)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
+
+
+Usage
+-----
+
+Select some text, and activate by keypress.
+
+If you do not select anything, the file's content in its entirety will be read.
+
+
+I've added this to my User Key Bindings (&#8963;-&#8997;-s on a Mac):
+
+    { "keys": ["ctrl+alt+s"], "command": "speak_to_me"}
+

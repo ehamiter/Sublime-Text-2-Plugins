@@ -1,7 +1,9 @@
 Sublime Text 2 Plugins
 ===============================================
 
-This is just a handy place to store some plugins I wrote for ST2.
+This is just a handy place to store some plugins I wrote for Sublime Text 2. Feel free to use, edit, extend, or improve as you see fit. It'd be nice to have credit if you post your updated version online, but it's not required. Treat all of this as MIT-licensed.
+
+Note: I'm using this particular repo not only as an online storage space for some scripts that I use, but also as a sort of personal portfolio-- as such, I don't have a section for issues, and I do not accept pull requests. 
 
 
 blame.py
